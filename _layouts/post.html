@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<div class="post">
+  <!-- Wrapper Start -->
+  <section id="intro" style="border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+        <div>
+          <div class="block">
+            <h1>{{ page.title }}</h1>
+            <div class="post-info-wrapper">
+              <p class="italic">Datum: {{ page.optreden | date: "%-d %b %Y" }} <br />
+                Locatie: {{ page.locatie }}</p>
+            </div>
+            <hr />
+            <p>{{ content }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+    </div>
+  </section>
+</div>
+<p class="center-text" style="padding: 30px;">
+  <a href="{{ site.baseurl }}/blog">Terug naar overzicht</a>
+</p>

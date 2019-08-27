@@ -1,0 +1,21 @@
+# Site settings
+title: VZW Crescendo Zottegem
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+#baseurl: "http://www.doji.be/crescendo" # the subpath of your site, e.g. /blog/
+#url: "http://www.doji.be/crescendo" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
+
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
+
+include:
+  - _events
+
+collections:
+  events:
+    permalink: /_events/:path.html
