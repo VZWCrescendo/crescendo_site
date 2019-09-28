@@ -444,10 +444,19 @@ body {
   -webkit-tap-highlight-color: $theme-dark;
 }
 
+.profile_container {
+  max-height: 285px;
+  margin: 5px;
+  padding: 5px;
+
+  align-items: center; /* horizontal */
+  justify-content: center;
+}
+
 .profile_image {
   width: 100%;
   border: 5px solid $theme-primary;
-  padding: 0px;
+
 }
 
 .btn-inline {

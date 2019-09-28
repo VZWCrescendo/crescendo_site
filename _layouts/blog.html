@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% assign sorted_events = (site.events | sort: 'optreden') | reverse %}
+{% assign sorted_events = site.events | sort: 'optreden' | reverse %}
 {% for post in sorted_events  %}
 <div class="post-area">
   {% if post.image %}
@@ -16,7 +16,7 @@ layout: page
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">Op: {{ post.optreden | date: "%-d %b %Y" }} --  {{ post.locatie }} </p>
   <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
+    {{ post.excerpt | strip_html | truncatewords: 50 }}
   </p>
 </div>
 {% endfor %}
