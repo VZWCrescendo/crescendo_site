@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Crescendo zingt 'Noorderlicht' op 17 november 2019"
+title:  "Crescendo zingt 'Noorderlicht'"
 optreden: 2019-11-17 16:00:00 +0100
 locatie: Ridderzaal kasteel van Egmont Zottegem
 category: blog

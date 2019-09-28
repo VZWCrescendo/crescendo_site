@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Crescendo zingt 'Noorderlicht' op 16 november 2019"
+title:  "Crescendo zingt 'Noorderlicht'"
 optreden: 2019-11-16 20:00:00 +0100
 locatie: Congregatiekappel Zottegem
 category: blog

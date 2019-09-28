@@ -549,3 +549,18 @@ body {
 .colored-title {
   color: $theme-primary;
 }
+
+.highlight-image img {
+  border-radius: 65px;
+  border-color: $theme-dark;
+  width: 125px;
+  height: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  filter: grayscale(85%);
+}
+
+.highlight-image img:hover {
+  filter: grayscale(0%);
+}
