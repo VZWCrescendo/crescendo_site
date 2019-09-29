@@ -8,17 +8,15 @@
           koorrepertoire uit de polyfonie, renaissance en romantiek.
           Hedendaagse composities en het promoten van Vlaamse componisten zijn tevens belangrijke
           pijlers in de muziekkeuze.</p>
-        <a href="blog.html" class="btn btn-default btn-xl">Woon een optreden bij!</a>
-
       </div>
     </div>
   </div>
-  <br /><br />
+  <br/>
   <div class="container">
     <div class="row">
-      <hr class="light">
       {% assign sorted_events = site.events | sort: 'optreden' | reverse %}
-      {% for post in sorted_events limit:3 %}
+      {% assign latest_events = sorted_events | reverse %}
+      {% for post in latest_events limit:3 %}
       <div class="col-lg-4 col-md-6 text-center">
         <div class="service-box">
           {% if post.image %}
@@ -40,10 +38,18 @@
       {% endfor %}
 
     </div>
-    <hr class="light">
+
+    <br /><br />
+
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <br/><br/>
+        <a href="blog.html" class="btn btn-default btn-xl">een overzicht van onze optredens</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <br/>
         <p> Een aantal van onze optredens is digitaal vastgelegd.
           <br/>U kunt een selectie uit ons repetoire <a
               href="https://www.youtube.com/channel/UCpUux6MeZ-HBM3n_uO48Plg" target="_blank"

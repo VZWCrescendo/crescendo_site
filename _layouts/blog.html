@@ -3,7 +3,7 @@ layout: page
 ---
 
 {% assign sorted_events = site.events | sort: 'optreden' | reverse %}
-{% for post in sorted_events  %}
+{% for post in sorted_events %}
 <div class="post-area">
   {% if post.image %}
   <div class="post-image">
