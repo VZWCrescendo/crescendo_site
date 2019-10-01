@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Optreden Onze-Lieve-Vrouw Hemelvaartkerk"
+title:  "Optreden Onze-Lieve-Vrouw-Hemelvaartkerk"
 optreden: 2019-07-11 15:00:00 +0100
 locatie: markt Zottegem
 category: blog

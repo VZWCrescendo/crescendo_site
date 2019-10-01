@@ -6,7 +6,7 @@
         <hr class="light">
         <p class="text-faded">Het repertoire van Crescendo bestaat hoofdzakelijk uit het klassieke
           koorrepertoire uit de polyfonie, renaissance en romantiek.
-          Hedendaagse composities en het promoten van Vlaamse componisten zijn tevens belangrijke
+          Hedendaagse composities en het promoten van Vlaamse componisten zijn ook belangrijke
           pijlers in de muziekkeuze.</p>
       </div>
     </div>
@@ -32,7 +32,7 @@
           <a href="{{ post.url | prepend: site.baseurl }}" class="bold" style="color: #fff;"><h3>{{
             post.title }}</h3>
           </a>
-          <p class="text">{{ post.optreden | date_to_long_string }}</p>
+          <p class="text">{{ post.optreden | dutchDate }}</p>
         </div>
       </div>
       {% endfor %}
