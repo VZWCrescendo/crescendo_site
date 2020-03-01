@@ -564,3 +564,25 @@ body {
 .highlight-image img:hover {
   filter: grayscale(0%);
 }
+
+.sponsors_gold .gallery figure img {
+  border: 0px;
+  width: 425px;
+}
+
+.sponsors_silver .gallery figure img {
+  border: 0px;
+  width: 225px;
+  height: auto;
+
+}
+
+.sponsors_bronze .gallery figure img {
+  border: 0px;
+  width: 175px;
+  height:  75px;
+}
+
+.sponsors_bronze .gallery figure {
+  min-height:  75px;
+}

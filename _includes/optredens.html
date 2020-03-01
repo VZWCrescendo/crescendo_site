@@ -15,7 +15,7 @@
   <div class="container">
     <div class="row">
       {% assign sorted_events = site.events | sort: 'optreden' | reverse %}
-      {% assign latest_events = sorted_events | reverse %}
+      {% assign latest_events = sorted_events %}
       {% for post in latest_events limit:3 %}
       <div class="col-lg-4 col-md-6 text-center">
         <div class="service-box">
