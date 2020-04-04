@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Lente met Vivaldi"
+title:  "Vivaldi Concert"
 optreden: 2020-10-24 20:00:00 +0100
-locatie: Dekenale kappel Zottegem
+locatie: Dekenale kerk Zottegem
 category: blog
 excerpt: "Crescendo brengt u een lenteconcert met muziek van de geliefde componist Vivaldi. We zingen het Credo, Magnificat, en Gloria. Het concert wordt geleid door Marleen Bijl."
 image: "/img/kalender/vivaldi.png"
 ---
 
-# Lente met Vivaldi
+# Vivaldi Concert
 
-Crescendo brengt u een lenteconcert met muziek van de geliefde componist Vivaldi.
+Crescendo brengt u een herfstconcert met muziek van de componist Vivaldi.
 We zingen het Credo, Magnificat, en Gloria. Het concert wordt geleid door Marleen Bijl.
 
-Toegangskaarten zijn verkrijgbaar bij de organisatie, of aan de kassa.
+Toegangskaarten zullen verkrijgbaar zijn bij de organisatie, of aan de kassa.
 De kaarten zullen €18,00 kosten in voorverkoop, of €20,00 aan de kassa.
 
 <div class="gallery">
