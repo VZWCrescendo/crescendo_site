@@ -21,12 +21,12 @@ Toegangskaarten zijn verkrijgbaar bij de organisatie.
 
 
 <div class="gallery">
-<center>
-<figure>
-  <a href="{{ site.baseurl }}/img/kalender/noorderlicht.png" data-lity>
-    <img src="{{ site.baseurl }}/img/kalender/noorderlicht.png" alt="17 november 2019 - Crescendo zingt Nooderlicht" />
-  </a>
-  <figcaption>Onze affiche</figcaption>
-</figure>
-</center>
+  <center>
+  <figure>
+    <a href="{{ site.baseurl }}/img/kalender/noorderlicht.png" data-lity>
+      <img src="{{ site.baseurl }}/img/kalender/noorderlicht.png" alt="17 november 2019 - Crescendo zingt Nooderlicht" />
+    </a>
+    <figcaption>Onze affiche</figcaption>
+  </figure>
+  </center>
 </div>
