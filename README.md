@@ -29,7 +29,7 @@ The following automations are in place using GitHub Actions:
 | Cleanup Stale Branches | [cleanup.yml](.github/workflows/cleanup.yml)           |                                                                                                   |
 | Sync ticket labels     | [label-sync.yml](.github/workflows/label-sync.yml)     |                                                                                                   |
 | Deploy To GitHub Pages | [pages_deploy.yml](.github/workflows/pages_deploy.yml) | When push to `main` branch is done, build and deploy the website to the GH pages beta environment |
-| Update Readme          | [pages_deploy.yml](.github/workflows/pages_deploy.yml) | When push to `main` branch is done, build and deploy the website to the GH pages beta environment |
+| Update Readme          | [pages_deploy.yml](.github/workflows/pages_deploy.yml) |                                                                                                   |
 
 ## Changelog and Other Documentation
 
