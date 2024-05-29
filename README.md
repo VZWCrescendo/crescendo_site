@@ -3,15 +3,14 @@
 Website for the amateur choir VZW Crescendo Zottegem.
 
 ## Development
-### Local Development
 
-#### Install Ruby
+## Install Ruby
 
 You will need to install Jekyll on your machine to run the website locally. 
 This will require you to install Ruby and RubyGems.
 See [Jekyll Installation](https://jekyllrb.com/docs/installation/) for more information.
 
-#### Install Jekyll and launch the website
+## Install Jekyll and launch the website
 
 Get started by cloning the repository, installing the dependencies, and launching the website locally.
 ```bash
