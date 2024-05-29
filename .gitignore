@@ -1,2 +1,17 @@
+
+# Jekyll specific excludes
 _site/
 .sass-cache/
+
+# IntelliJ specific Excludes
+.idea
+
+# VSCode Excludes
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
