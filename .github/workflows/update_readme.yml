@@ -1,0 +1,45 @@
+name: <(^v^)> Update README.md with Changelog
+
+on:
+  push:
+    branches:
+      - main
+      - release
+      - feature/*
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "doc_updates"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - run: sed -i '/<!-- CHANGELOG:START -->/,/<!-- CHANGELOG:END -->/d' README.md
+      - run: echo '<!-- CHANGELOG:START -->' >> README.md
+      - run: cat docs/CHANGELOG.md >> README.md
+      - run: echo '<!-- CHANGELOG:END -->' >> README.md
+
+      - name: push
+        uses: actions-x/commit@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
+        with:
+          name: GitHub Actions Autocommitter
+          files: ./README.md
+          message: "[GITOPS] updated README with latest changes"
