@@ -24,12 +24,12 @@ Get started by cloning the repository, installing the dependencies, and launchin
 
 The following automations are in place using GitHub Actions:
 
-| Action                 | Workflow File                                          | Description                                                                                       |
-|------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| Cleanup Stale Branches | [cleanup.yml](.github/workflows/cleanup.yml)           |                                                                                                   |
-| Sync ticket labels     | [label-sync.yml](.github/workflows/label-sync.yml)     |                                                                                                   |
-| Deploy To GitHub Pages | [pages_deploy.yml](.github/workflows/pages_deploy.yml) | When push to `main` branch is done, build and deploy the website to the GH pages beta environment |
-| Update Readme          | [pages_deploy.yml](.github/workflows/pages_deploy.yml) |                                                                                                   |
+| Action                 | Workflow File                                            | Description                                                                                                                                 |
+|------------------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Cleanup Stale Branches | [cleanup.yml](.github/workflows/cleanup.yml)             | Cleans up merged branches when PRs are marked as `closed`.                                                                                  |
+| Sync ticket labels     | [label-sync.yml](.github/workflows/label-sync.yml)       | Applies labels from [labels.yml](.github/labels.yml) for use in the [Issue Tracker](https://github.com/stijn-dejongh/crescendo_site/issues) |
+| Deploy To GitHub Pages | [pages_deploy.yml](.github/workflows/pages_deploy.yml)   | When push to `main` branch is done, build and deploy the website to the GH pages beta environment                                           |
+| Update Readme          | [update_readme.yml](.github/workflows/update_readme.yml) | Adds the contents of the [CHANGELOG](docs/CHANGELOG.md) to this README file.                                                                |
 
 ## Changelog and Other Documentation
 
