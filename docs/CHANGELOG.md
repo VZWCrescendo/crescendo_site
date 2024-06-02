@@ -21,4 +21,5 @@ Following changes are known:
 * Add CHANGELOG.md file
 * Add documentation for the website
 * Add github actions automation flows (deploy to github pages)
+* Changed header image to a more recent picture
 
