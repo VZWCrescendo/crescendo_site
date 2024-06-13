@@ -14,7 +14,7 @@ layout: page
   {% endif %}
 
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">Op: {{ post.optreden | dutchDate }} --  {{ post.locatie }} </p>
+  <p class="post-date">{{ post.optreden | dutchDate }} --  {{ post.locatie }} </p>
   <p>
     {{ post.excerpt | strip_html | truncatewords: 50 }}
   </p>
