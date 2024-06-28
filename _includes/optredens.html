@@ -1,60 +1,60 @@
 <section class="bg-primary" id="optredens">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2 class="section-heading">Onze optredens</h2>
-        <hr class="light">
-        <p class="text-faded">Het repertoire van Crescendo bestaat hoofdzakelijk uit het klassieke
-          koorrepertoire uit de polyfonie, renaissance en romantiek.
-          Hedendaagse composities en het promoten van Vlaamse componisten zijn ook belangrijke
-          pijlers in de muziekkeuze.</p>
-      </div>
-    </div>
-  </div>
-  <br/>
-  <div class="container">
-    <div class="row">
-      {% assign sorted_events = site.events | sort: 'optreden' | reverse %}
-      {% assign latest_events = sorted_events %}
-      {% for post in latest_events limit:4 %}
-      <div class="col-lg-3 col-md-6 text-center">
-        <div class="service-box">
-          {% if post.image %}
-          <div class="highlight-image">
-            <a href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
-              <img src="{{ post.image }}">
-            </a>
-          </div>
-          {% else %}
-          <i class="fa fa-users fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-          {% endif %}
-
-          <a href="{{ post.url | prepend: site.baseurl }}" class="bold" style="color: #fff;"><h3>{{
-            post.title }}</h3>
-          </a>
-          <p class="text">{{ post.optreden | dutchDate }}</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Onze concerten</h2>
+                <hr class="light">
+                <p class="text-faded">Het repertoire van Crescendo bestaat hoofdzakelijk uit het klassieke
+                    koorrepertoire uit de polyfonie, renaissance en romantiek.
+                    Hedendaagse composities en het promoten van Vlaamse componisten zijn ook belangrijke
+                    pijlers in de muziekkeuze.</p>
+            </div>
         </div>
-      </div>
-      {% endfor %}
-
     </div>
+    <br/>
+    <div class="container">
+        <div class="row">
+            {% assign sorted_events = site.events | sort: 'optreden' | reverse %}
+            {% assign latest_events = sorted_events %}
+            {% for post in latest_events limit:4 %}
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    {% if post.image %}
+                    <div class="highlight-image">
+                        <a href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
+                            <img src="{{ post.image }}">
+                        </a>
+                    </div>
+                    {% else %}
+                    <i class="fa fa-users fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    {% endif %}
 
-    <br /><br />
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="bold" style="color: #fff;"><h3>{{
+                        post.title }}</h3>
+                    </a>
+                    <p class="text">{{ post.optreden | dutchDate }}</p>
+                </div>
+            </div>
+            {% endfor %}
 
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <a href="blog.html" class="btn btn-default btn-xl">een overzicht van onze optredens</a>
-      </div>
+        </div>
+
+        <br/><br/>
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="blog.html" class="btn btn-default btn-xl">een overzicht van onze concerten</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <br/>
+                <p> Een aantal van onze concerten is digitaal vastgelegd.
+                    <br/>U kunt een selectie uit ons repetoire <a
+                            href="https://www.youtube.com/channel/UCpUux6MeZ-HBM3n_uO48Plg" target="_blank"
+                            class="btn btn-mini btn-inline">online</a> smaken.</p>
+            </div>
+        </div>
     </div>
-
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <br/>
-        <p> Een aantal van onze optredens is digitaal vastgelegd.
-          <br/>U kunt een selectie uit ons repetoire <a
-              href="https://www.youtube.com/channel/UCpUux6MeZ-HBM3n_uO48Plg" target="_blank"
-              class="btn btn-mini btn-inline">online</a> smaken.</p>
-      </div>
-    </div>
-  </div>
 </section>
