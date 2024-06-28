@@ -5,7 +5,7 @@ optreden: 2019-11-16 20:00:00 +0100
 locatie: Ridderzaal kasteel van Egmont Zottegem
 category: blog
 excerpt: "Crescendo brengt een selectie van muziek geschreven door componisten uit de noorderlijke regionen van Europa."
-image: "../img/kalender/noorderlicht.png"
+image: "./img/kalender/noorderlicht.png"
 ---
 
 # Noorderlicht
