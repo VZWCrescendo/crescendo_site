@@ -22,7 +22,7 @@
                     {% if post.image %}
                     <div class="highlight-image">
                         <a href="{{ post.url | prepend: site.baseurl }}" style="color: #fff;">
-                            <img src="{{ post.image }}">
+                            <img src="{{ post.image | absolute_url }}">
                         </a>
                     </div>
                     {% else %}

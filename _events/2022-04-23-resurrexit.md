@@ -5,7 +5,7 @@ optreden: 2022-04-23 20:00:00 +0100
 locatie: Dekenale kerk Zottegem
 category: blog
 excerpt: "Crescendo brengt u <b>'Resurrexit'</b> onder leiding van Marleen Bijl en in samenwerking met het barokensemble Les Goûts-Authentiques."
-image: "./img/kalender/resurrexit.png"
+image: "img/kalender/resurrexit.png"
 ---
 
 {{ page.excerpt }}
