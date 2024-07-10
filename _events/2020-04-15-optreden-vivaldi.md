@@ -5,7 +5,7 @@ optreden: 2020-10-24 20:00:00 +0100
 locatie: Dekenale kerk Zottegem 
 category: blog
 excerpt: "Crescendo brengt u een herfstconcert met muziek van de geliefde componist Vivaldi. We zingen het Credo, Magnificat, en Gloria. Het concert wordt geleid door Marleen Bijl."
-image: "./img/kalender/vivaldi.png"
+image: "img/kalender/vivaldi.png"
 ---
 
 {{ page.excerpt }}
@@ -16,8 +16,8 @@ De kaarten zullen €18,00 kosten in voorverkoop, of €20,00 aan de kassa.
 <div class="gallery">
 <center>
 <figure>
-  <a href="{{ site.baseurl }}/img/kalender/vivaldi.png" data-lity>
-    <img src="{{ site.baseurl }}/img/kalender/vivaldi.png" alt="Affiche Lente met Vivaldi" />
+  <a href="{{ page.image | absolute_url }}" data-lity>
+    <img src="{{ page.image | absolute_url }}" alt="Affiche Lente met Vivaldi" />
   </a>
   <figcaption>Onze affiche</figcaption>
 </figure>
@@ -50,8 +50,9 @@ Wij willen graag de volgende partners bedanken voor hun steun:
         </div>
     </div>
 
-  <br /><br /><br />
+<br /><br /><br />
   <!--- SILVER vanaf 100 EUR --->
+
     <div class="sponsors_silver">
     <div class="gallery">
             <center>

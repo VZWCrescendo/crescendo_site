@@ -5,7 +5,7 @@ optreden: 2023-08-26 12:00:00 +0100
 locatie: Église Saint-Julien
 category: blog
 excerpt: "Crescendo heeft het genoegen een muzikaal spektakel te verzorgen ter gelegenheid van het huwelijk van Mr. en Mvr. Goliath te Ath!"
-image: "./img/kalender/ducasse.jpeg"
+image: "img/kalender/ducasse.jpeg"
 ---
 
 {{ page.excerpt }}
@@ -42,8 +42,11 @@ image: "./img/kalender/ducasse.jpeg"
 <br>
 <h3><a href="https://www.ath.be/ducasse-dath/le-programme/le-programme-de-la-ducasse-dath" target="_blank">Meer info</a></h3>
 
-<a href="{{ post.image }}">
-            <img src="{{ post.image }}"/>
-</a>
-
-<img src="{{ post.image }}"/>
+<div class="gallery">
+<figure>
+  <a href="{{ page.image | absolute_url}}" data-lity>
+    <img src="{{ page.image | absolute_url}}" alt="26 augustus 2023 - La Ducasse d'Ath" />
+  </a>
+  <figcaption>Affiche "La Ducasse d'Ath"</figcaption>
+</figure>
+</div>
