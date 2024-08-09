@@ -80,6 +80,11 @@ aside {
   @include sans-serif-font;
   @include transition-all;
 
+  * {
+    @include sans-serif-font;
+    @include transition-all;
+  }
+
   .navbar-header .navbar-brand {
     color: $theme-primary;
     @include sans-serif-font;
@@ -93,9 +98,9 @@ aside {
   }
 
   .nav {
-    > li {
-      > a,
-      > a:focus {
+    li {
+      a,
+      a:focus {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 13px;
@@ -107,8 +112,8 @@ aside {
       }
 
       &.active {
-        > a,
-        > a:focus {
+        a,
+        a:focus {
           color: $theme-primary !important;
           background-color: transparent;
 
@@ -123,6 +128,7 @@ aside {
   @media (min-width: 768px) {
     background-color: transparent;
     border-color: rgba(white, .3);
+
     .navbar-header .navbar-brand {
       color: rgba(white, .7);
 
@@ -131,14 +137,34 @@ aside {
         color: white;
       }
     }
-    .nav > li > a,
-    .nav > li > a:focus {
-      color: rgba(white, .7);
 
-      &:hover {
-        color: white;
+    .nav {
+      .dropdown-menu,
+      li a,
+      li a:focus {
+        color: rgba(white, .7);
+
+        &:hover {
+          color: white;
+        }
+      }
+
+      .open > a,
+      .dropdown-menu {
+        background-color: rgba(white, .7) !important;
+
+        a {
+          background-color: transparent;
+          color: $theme-dark;
+        }
+
+
+        &:focus {
+          color: $theme-dark;
+        }
       }
     }
+
     &.affix {
       background-color: white;
       border-color: rgba($theme-dark, .5);
@@ -153,8 +179,10 @@ aside {
         }
       }
 
-      .nav > li > a,
-      .nav > li > a:focus {
+      .nav li a,
+      .nav .dropdown-menu,
+      .nav li a:focus {
+        background-color: white !important;
         color: $theme-dark;
 
         &:hover {
@@ -496,7 +524,7 @@ body {
 
 .gallery {
   width: 100%;
-  text-align:  center;
+  text-align: center;
 }
 
 .gallery figure {
@@ -511,7 +539,7 @@ body {
 }
 
 
-.gallery figure img{
+.gallery figure img {
   border-top: 5px solid #383535;
   border-left: 2px solid #383535;
   border-right: 2px solid #383535;
@@ -544,6 +572,7 @@ body {
 .post-image:hover {
   filter: grayscale(0%);
 }
+
 .post-image img {
   border-radius: 100px;
   height: 135px;
@@ -586,9 +615,9 @@ body {
 .sponsors_bronze .gallery figure img {
   border: 0px;
   width: 175px;
-  height:  75px;
+  height: 75px;
 }
 
 .sponsors_bronze .gallery figure {
-  min-height:  75px;
+  min-height: 75px;
 }
