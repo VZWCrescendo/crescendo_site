@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<section id="impressies">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Impressies</h2>
+                <hr class="primary">
+                <h3 class="section-heading">Albums van vroeger en nu</h3>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="gallery">
+
+            {% for album in site.albums %}
+            {% assign image_index = 0 %}
+            {% for image in site.static_files %}
+            {% if image.path contains album.album_folder %}
+            {% if image_index == album.cover_image_index %}
+            <figure>
+                <a href="{{album.url}}">
+                    <img src="{{image.path}}" alt="Los Angeles">
+                </a>
+                <figcaption>{{ album.title }}</figcaption>
+            </figure>
+            {% endif %}
+            {% assign image_index = image_index | plus: 1 %}
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
