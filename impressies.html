@@ -17,18 +17,14 @@ layout: page
         <div class="gallery">
 
             {% for album in site.albums %}
-            {% assign image_index = 0 %}
             {% for image in site.static_files %}
-            {% if image.path contains album.album_folder %}
-            {% if image_index == album.cover_image_index %}
+            {% if image.path contains album.cover_image %}
             <figure>
                 <a href="{{album.url}}">
-                    <img src="{{image.path}}" alt="Los Angeles">
+                    <img src="{{image.path}}">
                 </a>
                 <figcaption>{{ album.title }}</figcaption>
             </figure>
-            {% endif %}
-            {% assign image_index = image_index | plus: 1 %}
             {% endif %}
             {% endfor %}
             {% endfor %}

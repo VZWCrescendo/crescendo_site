@@ -21,25 +21,14 @@ layout: page
                 {% if image.path contains page.album_folder %}
                 <figure>
                     <a href="#carousel" data-lity data-slide-to="{{ index }}">
-                        <img src=" {{ site.baseurl }}{{ image.path }}" alt="image" />
+                        <img src=" {{ site.baseurl }}{{ image.path }}" />
                     </a>
                 </figure>
                 {% assign index = index | plus: 1 %}
                 {% endif %}
                 {% endfor %}
 
-                <div id="carousel" class="carousel slide lity-hide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        {% assign index = 0 %}
-                        {% for image in site.static_files %}
-                        {% if image.path contains page.album_folder %}
-                        <li data-target="#carousel" data-slide-to="{{ index }}"></li>
-                        {% assign index = index | plus: 1 %}
-                        {% endif %}
-                        {% endfor %}
-                    </ol>
-
+                <div id="carousel" class="carousel lity-hide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         {% assign first = false %}
@@ -48,11 +37,11 @@ layout: page
                         {% if first == false %}
                         {% assign first = true %}
                         <div class="item active">
-                            <img src="{{ site.baseurl }}{{ image.path }}" alt="Los Angeles">
+                            <img src="{{ site.baseurl }}{{ image.path }}">
                         </div>
                         {% else %}
                         <div class="item">
-                            <img src="{{ site.baseurl }}{{ image.path }}" alt="Los Angeles">
+                            <img src="{{ site.baseurl }}{{ image.path }}">
                         </div>
                         {% endif %}
                         {% endif %}
