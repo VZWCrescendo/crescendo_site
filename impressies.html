@@ -20,8 +20,8 @@ layout: page
             {% for image in site.static_files %}
             {% if image.path contains album.cover_image %}
             <figure>
-                <a href="{{album.url}}">
-                    <img src="{{image.path}}">
+                <a href="{{ site.baseurl }}{{album.url}}">
+                    <img src="{{ site.baseurl }}{{image.path}}">
                 </a>
                 <figcaption>{{ album.title }}</figcaption>
             </figure>
