@@ -1,0 +1,33 @@
+---
+layout: page
+---
+
+<section id="impressies">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Impressies</h2>
+                <hr class="primary">
+                <h3 class="section-heading">Albums van vroeger en nu</h3>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="gallery">
+
+            {% for album in site.albums %}
+            {% for image in site.static_files %}
+            {% if image.path contains album.cover_image %}
+            <figure>
+                <a href="{{album.url}}">
+                    <img src="{{image.path}}">
+                </a>
+                <figcaption>{{ album.title }}</figcaption>
+            </figure>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

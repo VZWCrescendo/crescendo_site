@@ -11,7 +11,10 @@ markdown: kramdown
 
 include:
   - _events
+  - _albums
 
 collections:
   events:
     permalink: /_events/:path.html
+  albums:
+    permalink: /_albums/:path.html
