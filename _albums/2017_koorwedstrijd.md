@@ -25,3 +25,9 @@ Na vijf intense repetities en een try-out trokken we in groep per bus naar Gent.
 </blockquote>
 
 <p>- Luc Van Laethem, voorzitter</p>
+
+<div class="container">
+ <div class="col-lg-12 text-center">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/fdDH5SLSj-4?si=jfPrHbEiOY-4YhJa"></iframe>
+ </div>
+</div>

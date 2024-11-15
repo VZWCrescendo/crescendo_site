@@ -31,3 +31,9 @@ Daarnaast brengt Crescendo liederen op tekst en muziek van Martin Luther (1483 -
 <h2>Organisatie</h2>
 
 <p><em>Crescendo nam de organisatie waar en werd daarbij geholpen door Deken Hans Vanderholen, de kerkfabriek en het secretariaat van het dekenaat, Dhr. Luc Verstricht, de Stedelijke Academie voor Muziek, Woord en Dans en haar directeur Dhr. Andy Dhondt, de Zottegemse stadsbibliotheek en de Zottegemse Dienst voor Toerisme, het Zottegemse stadsbestuur en vele sponsors.</em></p>
+
+<div class="container">
+ <div class="col-lg-12 text-center">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/1zT2v801-Ug?si=_t1qAtFy1KQ8BYIC"></iframe>
+ </div>
+</div>
