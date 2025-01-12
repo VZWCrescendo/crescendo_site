@@ -5,7 +5,7 @@ optreden: 2022-04-23 20:00:00 +0100
 locatie: Dekenale kerk Zottegem
 category: blog
 excerpt: "Crescendo brengt u <b>'Resurrexit'</b> onder leiding van Marleen Bijl en in samenwerking met het barokensemble Les Goûts-Authentiques."
-image: "img/kalender/resurrexit.png"
+image: "img/kalender/resurrexit.webp"
 ---
 
 {{ page.excerpt }}
@@ -42,122 +42,122 @@ Wij willen graag de volgende partners bedanken voor hun steun:
             <center>
              <figure>
                 <a href="https://www.nuby.be" target="_blank">
-                    <img src="{{ site.baseurl }}/img/kalender/sponsors/new_valmar.png" alt="New Valmar" />
+                    <img src="{{ site.baseurl }}/img/kalender/sponsors/new_valmar.webp" alt="New Valmar" />
                 </a>
             </figure>
             <figure>
                 <a href="https://www.elpe.be/" target="_blank">
-                    <img src="{{ site.baseurl }}/img/kalender/sponsors/elpe.png" alt="ELPE werfdoek" />
+                    <img src="{{ site.baseurl }}/img/kalender/sponsors/elpe.webp" alt="ELPE werfdoek" />
                 </a>
             </figure>
             <figure>
                 <a href="https://www.zottegemwinkelcentrum.be/jo-dieraert-florist/" target="_blank">
-                    <img src="{{ site.baseurl }}/img/kalender/sponsors/florist_dieraert.png" alt="Florist Jo Dieraert" />
+                    <img src="{{ site.baseurl }}/img/kalender/sponsors/florist_dieraert.webp" alt="Florist Jo Dieraert" />
                 </a>
             </figure>
             <figure>
                 <a href="https://www.facebook.com/cafeJamesZottegem/" target="_blank">
-                    <img src="{{ site.baseurl }}/img/kalender/sponsors/cafe_james.png" alt="Cafe James" />
+                    <img src="{{ site.baseurl }}/img/kalender/sponsors/cafe_james.webp" alt="Cafe James" />
                 </a>
             </figure>
             <figure>
                 <a href="https://www.facebook.com/houtnaarnieuw/" target="_blank">
-                    <img src="{{ site.baseurl }}/img/kalender/sponsors/sponsoring_jan_porrez.jpg" alt="Hout naar Nieuw" />
+                    <img src="{{ site.baseurl }}/img/kalender/sponsors/sponsoring_jan_porrez.webp" alt="Hout naar Nieuw" />
                 </a>
             </figure>
             <figure>
                 <a href="https://www.facebook.com/ChezLaurentCafe/" target="_blank">
-                    <img src="{{ site.baseurl }}/img/kalender/sponsors/laurent.jpeg" alt="Chez Laurent" />
+                    <img src="{{ site.baseurl }}/img/kalender/sponsors/laurent.webp" alt="Chez Laurent" />
                 </a>
             </figure>
             <figure>
                 <a href="https://www.deli-italia.be/" target="_blank">
-                    <img src="{{ site.baseurl }}/img/kalender/sponsors/deli_italia.png" alt="Deli Italia" />
+                    <img src="{{ site.baseurl }}/img/kalender/sponsors/deli_italia.webp" alt="Deli Italia" />
                 </a>
             </figure>
                 <figure>
                     <a href="" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/francy.png" alt="New Valmar" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/francy.webp" alt="New Valmar" />
                     </a>
                 </figure>
                 <figure>
                     <a href="" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/volkshuis.png" alt="New Valmar" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/volkshuis.webp" alt="New Valmar" />
                     </a>
                 </figure>
                 <figure>
                     <a href="http://www.huysteoudenhove.be/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/huys_oudenhove.png" alt="New Valmar" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/huys_oudenhove.webp" alt="New Valmar" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://www.labaere.be/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/labaere.png" alt="New Valmar" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/labaere.webp" alt="New Valmar" />
                     </a>
                 </figure>
                 <figure>
                     <a href="http://www.garagevantwembeke.be/renault" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/twembeke.png" alt="New Valmar" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/twembeke.webp" alt="New Valmar" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://nl-nl.facebook.com/VishandelDeKust" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/de_kust.png" alt="New Valmar" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/de_kust.webp" alt="New Valmar" />
                     </a>
                 </figure>
                 <figure>
                     <a href="http://badisco-herzele.toyotanet.be/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/badisco.png" alt="Garage Badisco Herzele" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/badisco.webp" alt="Garage Badisco Herzele" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://vdbdefietsspecialist.be/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/kurt.png" alt="Fietsspecialist Kurt" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/kurt.webp" alt="Fietsspecialist Kurt" />
                     </a>
                 </figure>
                 <figure>
                     <a href="http://www.optiekjacques.be/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/optiek_jaques.png" alt="Optiek Jacques" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/optiek_jaques.webp" alt="Optiek Jacques" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://www.facebook.com/pastrydesignzottegem" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/pastry.png" alt="Pastry Design" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/pastry.webp" alt="Pastry Design" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://www.bouwwerkenmonsecour.be/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/logo_monsecour.png" alt="Monsecour" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/logo_monsecour.webp" alt="Monsecour" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://cheers-zottegem.business.site/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/logo_cheers.jpg" alt="Cheers" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/logo_cheers.webp" alt="Cheers" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://www.zwalm.be/bezoeken/eten-en-drinken/ysebaert" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/ysebaert.png" alt="Café Ysebaert" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/ysebaert.webp" alt="Café Ysebaert" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://www.oosterzeleonderneemt.be/handelaar/slagerij-jo-heyndrickx/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/traiteur.png" alt="Jo Heyndrickx" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/traiteur.webp" alt="Jo Heyndrickx" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://www.zottegemwinkelcentrum.be/seghers-joost/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/seghers.png" alt="Seghers Joost" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/seghers.webp" alt="Seghers Joost" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://xavierverhuur.be/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/logo_xavier_verhuur.png" alt="Xavier veruur" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/logo_xavier_verhuur.webp" alt="Xavier veruur" />
                     </a>
                 </figure>
                 <figure>
                     <a href="https://slagerijdekoekelaere.be/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/kalender/sponsors/de_koekelaere.png" alt="De Koekelaere" />
+                        <img src="{{ site.baseurl }}/img/kalender/sponsors/de_koekelaere.webp" alt="De Koekelaere" />
                     </a>
                 </figure>
             </center>

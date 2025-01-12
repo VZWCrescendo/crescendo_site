@@ -5,7 +5,7 @@ optreden: 2023-08-26 12:00:00 +0100
 locatie: Église Saint-Julien
 category: blog
 excerpt: "Crescendo heeft het genoegen een muzikaal spektakel te verzorgen ter gelegenheid van het huwelijk van Mr. en Mvr. Goliath te Ath!"
-image: "img/kalender/ducasse.jpeg"
+image: "img/kalender/ducasse.webp"
 ---
 
 {{ page.excerpt }}

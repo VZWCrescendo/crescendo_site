@@ -5,7 +5,7 @@ optreden: 2024-05-26 11:00:00 +0100
 locatie: Congregatiekapel Kasteelstraat 30, Zottegem
 category: blog
 excerpt: "WEER OF GEEN WEER! Lente met Crescendo!"
-image: "img/kalender/i_sing_you_sing.png"
+image: "img/kalender/i_sing_you_sing.webp"
 ---
 
 {{ page.excerpt }}

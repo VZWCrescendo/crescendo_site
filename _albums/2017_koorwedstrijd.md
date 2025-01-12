@@ -2,7 +2,7 @@
 layout: album
 title:  "Provinciale koorwedstrijden Oost-Vlaanderen 2017"
 album_folder: "img/albums/koorwedstrijd_2017"
-cover_image: "img/albums/koorwedstrijd_2017/image1.jpg"
+cover_image: "img/albums/koorwedstrijd_2017/image1.webp"
 ---
 
 <p>Op zondag 5 februari 2017 werd Crescendo uitgenodigd zijn rangschikking in eerste divisie te verdedigen. 5 februari 2017. Provinciale koorwedstrijden Oost-Vlaanderen, Conservatorium Gent.</p>

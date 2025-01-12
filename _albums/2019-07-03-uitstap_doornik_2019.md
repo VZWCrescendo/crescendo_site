@@ -2,7 +2,7 @@
 layout: album
 title:  "Uitstap Doornik 2019"
 album_folder: "img/albums/doornik_2019/"
-cover_image: "img/albums/doornik_2019/licensed-image.jpg"
+cover_image: "img/albums/doornik_2019/licensed-image.webp"
 ---
 
 Goede gewoontes houden we graag in ere. De zoektocht naar een tweejarige uitstap leidde in 2019 naar Doornik.
