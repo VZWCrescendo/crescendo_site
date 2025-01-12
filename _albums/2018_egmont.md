@@ -2,7 +2,7 @@
 layout: album
 title:  "Egmont concert \"BEELDenSTORM\""
 album_folder: "img/albums/egmont_2018"
-cover_image: "img/albums/egmont_2018/egmont_flyer_left.png"
+cover_image: "img/albums/egmont_2018/egmont_flyer_left.webp"
 ---
 
 <p><em>Op dinsdag 5 juni 2018 was het precies 450 jaar geleden dat Lamoraal, graaf van Egmont onthoofd werd op de Grote Markt in Brussel.</em></p>
