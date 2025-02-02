@@ -16,7 +16,7 @@ Reserveringen via mail of site gelden pas na storting van het bedrag van €12,0
 <div class="gallery">
 <figure>
   <a href="{{ page.image | absolute_url}}" data-lity>
-    <img src="{{ page.image | absolute_url}}" alt="26 mei 2024- I sing You sing" />
+    <img src="{{ page.image | absolute_url}}" alt="26 mei 2024 - I sing You sing" />
   </a>
   <figcaption>Affiche "I sing You sing"</figcaption>
 </figure>
