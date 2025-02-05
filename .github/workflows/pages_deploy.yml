@@ -34,20 +34,17 @@ jobs:
         with:
           source: ./
           destination: ./_site
-          verbose: true
           # Variable defined in GitHub Repository Settings
           args: -b ${{ vars.GH_PAGES_BASE_URL }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: "./_site"
 
   # Deployment job
   deploy:
     environment:
       name: github-pages
       # Variable defined in GitHub Repository Settings
-      url: ${{ vars.GH_PAGES_BASE_URL }}
+      url: ${{ vars.GH_PAGES_URL }}${{ vars.GH_PAGES_BASE_URL }}
     runs-on: ubuntu-latest
     needs: build
     steps:
