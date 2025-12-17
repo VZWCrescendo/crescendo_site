@@ -19,13 +19,13 @@ Jenkins gebruikt rijke orkestraties en suggestieve harmonieën om het volledige 
 
 *'The Peacemakers'* wordt viervoudig uitgevoerd:
 - **14/03/2026** - **19u**: Quai de l'Entrepôt, **Ath**
-- **15/03/2026** - **16u**: Sint-Hermesbasiliek, **Ronse**
+- **15/03/2026** - **15u**: Sint-Salvatorkerk, **Harelbeke**
 - **21/03/2026** - **20u**: Heilig Hartkerk, **Zottegem**
 - **22/03/2026** - **16u**: Sint-Pauluskerk, **Doornik**
 
 <br>
 
-Tickets en info: [www.uitinvlaanderen.be](https://www.uitinvlaanderen.be/agenda/e/karl-jenkins-the-peacemakers/bbd78940-e20c-4bf8-baa5-0f1ba2d05af8)
+Tickets en info: [www.cczoetegem.be](https://www.cczoetegem.be/programma/karl-jenkins-the-peacemakers)
 
 <br>
 
