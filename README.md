@@ -31,6 +31,14 @@ The following automations are in place using GitHub Actions:
 | Deploy To GitHub Pages | [pages_deploy.yml](.github/workflows/pages_deploy.yml)   | When push to `main` branch is done, build and deploy the website to the GH pages beta environment                                           |
 | Update Readme          | [update_readme.yml](.github/workflows/update_readme.yml) | Adds the contents of the [CHANGELOG](docs/CHANGELOG.md) to this README file.                                                                |
 
+
+## Site deployment
+
+1. build site into dedicated folder: `jekyll build -b ./build`
+    (baseurl can be left empty)
+2. connect to ftp server (using filezilla) with credentials
+3. upload build to `/checkout/main/current/www`
+
 ## Changelog and Other Documentation
 
 <!-- CHANGELOG:START -->
