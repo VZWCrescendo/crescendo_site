@@ -1,6 +1,7 @@
 
 # Jekyll specific excludes
 _site/
+build/
 .sass-cache/
 
 # IntelliJ specific Excludes
