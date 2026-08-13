@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "DEMO"
-optreden: 2025-03-22 20:15:00 +0100
-locatie: Sint-Martinuskerk, Velzeke
+optreden: 2026-09-11 20:00:00 +0100
+locatie: Congregatiekapel - Kasteelstraat 30, Zottegem
 category: blog
 excerpt: "Dit is een demo concert voor het nieuwe ticket systeem"
 image: "img/kalender/zephiro.webp"
@@ -17,11 +17,9 @@ image: "img/kalender/zephiro.webp"
     Programma
   </h2>
   <h3>
-    Crescendo & Les Gôuts Authentiques
+    ...
   </h3>
-  <h4>
-    Marleen Bijl & Jan Devlieger
-  </h4>
+    Jullie mogen gewoon binnenkomen alsof het een concert is, wij controlleren jullie tickets, en kijken of alles goed werkt.
 </center>
 
 <br>
@@ -29,14 +27,10 @@ image: "img/kalender/zephiro.webp"
 <div class="gallery">
 <figure>
   <a href="{{ page.image | absolute_url}}" data-lity>
-    <img src="{{ page.image | absolute_url}}" alt="22 maart 2025 - Zephiro" />
+    <img src="{{ page.image | absolute_url}}" alt="11 september 2026 - Zephiro" />
   </a>
   <figcaption>Affiche "Zephiro"</figcaption>
 </figure>
 </div>
-
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
 
 <div data-hievents-id="9588" data-hievents-primary-color="#742f32" data-hievents-primary-text-color="#000000" data-hievents-secondary-color="#742f32" data-hievents-secondary-text-color="#ffffff" data-hievents-background-color="#ffffff" data-hievents-widget-type="widget" data-hievents-widget-version="1.0" data-hievents-locale="en" data-hievents-padding="20px" data-hievents-autoresize="true" data-hievents-continue-button-text="Continue" class="hievents-widget"></div>
