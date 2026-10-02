@@ -18,7 +18,9 @@ module Jekyll
             day = time(date).strftime("%e") # leading zero is replaced by a space
             month = time(date).strftime("%m")
             year = time(date).strftime("%Y")
-            day+' '+MONTHS[month]+' '+year
+            hour = time(date).strftime("%H")
+            minutes = time(date).strftime("%M")
+            day+' '+MONTHS[month]+' '+year+', '+hour+'u'+minutes
         end
 
         def html5date(date)
